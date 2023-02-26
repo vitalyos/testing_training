@@ -2,6 +2,8 @@
 #include <gflags/gflags.h>
 #include <gtest/gtest.h>
 
+// #include "common.h"
+
 class Evaluate : public testing::Test
 {
     public:

@@ -1,0 +1,1 @@
+static constexpr int VALUE = 3 * 4;

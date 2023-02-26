@@ -8,7 +8,7 @@
             "type": "lldb",
             "request": "launch",
             "name": "Launch",
-            "program": "${workspaceFolder}/build-vscode/DBGPreset/testing_training",
+            "program": "${workspaceFolder}/build-vscode/DBGPreset/main_tesing",
             "args": [
                 "--logtostderr=1",
                 "--log_dir=logs"
