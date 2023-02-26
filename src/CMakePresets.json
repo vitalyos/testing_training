@@ -1,0 +1,17 @@
+{
+    "version": 4,
+    "configurePresets": [
+        {
+            "name": "DBGPreset",
+            "displayName": "DBGZS",
+            "description": "Sets Ninja generator, build and install directory",
+            "generator": "Ninja",
+            "binaryDir": "${workspaceFolder}/build-vscode/${presetName}",
+            "toolchainFile": "${workspaceFolder}/submodules/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_TOOLCHAIN_FILE": "${workspaceFolder}/submodules/vcpkg/scripts/buildsystems/vcpkg.cmake"
+            }
+        }
+    ]
+}
