@@ -3,9 +3,5 @@
     "cmake.sourceDirectory": "${workspaceFolder}/src/",
     "cmake.buildBeforeRun": true,
     "cmake.buildDirectory": "${workspaceFolder}/build-vscode",
-    "cmake.useCMakePresets": "always",
-    "cmake.toolset": "${workspaceFolder}/submodules/vcpkg/scripts/buildsystems/vcpkg.cmake",
-    "cmake.configureArgs": [
-        "-DCMAKE_TOOLCHAIN_FILE=${workspaceFolder}/submodules/vcpkg/scripts/buildsystems/vcpkg.cmake"
-    ]
+    "cmake.useCMakePresets": "always"
 }

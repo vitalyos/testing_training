@@ -1,6 +1,9 @@
-#include <iostream>
+#include <glog/logging.h>
+#include <gflags/gflags.h>
 
-int main()
+int main(int argc, char ** argv)
 {
-    std::cout << "hello tesing" << std::endl;
+    google::InitGoogleLogging(argv[0]);
+    google::ParseCommandLineFlags(&argc, &argv, true);
+    LOG(INFO) << "SUCCESS";
 }
